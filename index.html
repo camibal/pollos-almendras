@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<!-- Mirrored from www.involveagency.com/reserva/nails-studio/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Oct 2020 15:50:50 GMT -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Pedidos Pollos Almendras</title>
+  <!-- Primary Meta Tags -->
+  <title>Pedidos Pollos Almendras</title>
+  <meta name="title" content="Pedidos Pollos Almendras">
+  <meta name="description" content="Aquí podrás hacer tu reserva para tu atención, te esperamos">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="index-2.html">
+  <meta property="og:title" content="Pedidos Pollos Almendras">
+  <meta property="og:description" content="Aquí podrás hacer tu reserva para tu atención, te esperamos">
+  <meta property="og:image" content="css/logo.jpg">
+  <link rel="shortcut icon" href="./css/food.jpg" type="image / x-icon">
+  <link rel="icon" href="./css/food.jpg" type="image / x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <form action="#" class="formulario">
+    <img src="css/POLLOS ALMENDRAS.png" class="imgLogo" />
+    <h1 class="formulario__titulo">Pollos Almendras</h1>
+    <h3 class="formulario__subtitulo">Reservas - Pedidos</h3>
+    <p class="formulario__parrafo">
+      Llena este pequeño formulario para agendar o hacer tu reserva o pedido.
+    </p>
+
+    <label for="cliente" class="formulario__label">¿Cuál es tu nombre?</label>
+    <input id="cliente" type="text" class="formulario__input" placeholder="Indica cuál es tu nombre completo" />
+
+    <label for="hora" class="formulario__label">Indica la hora de tu pedido</label>
+    <input id="hora" type="time" class="formulario__input" />
+
+    <label for="servicio" class="formulario__label">¿Cuál es el servicio que se desea realizar?</label>
+    <select id="servicio" name="listaservicios" class="formulario__input">
+      <option>Delivery</option>
+      <option>Tienda central</option>
+    </select>
+
+    <label for="servicio" class="formulario__label">Pedido</label>
+    <select id="pedido" name="pedido" class="formulario__input">
+      <option>Economico 10 BS</option>
+      <option>Cuarto 20 BS</option>
+      <option>Medio 40 BS</option>
+      <option>Entero 80 BS</option>
+      <option>Locro Sencillo 5 BS</option>
+      <option>Locro con presa 8 BS</option>
+      <option>Hamburguesa 15 BS</option>
+    </select>
+
+    <label for="servicio" class="formulario__label">Cantidad</label>
+    <select id="cantidad" name="cantidad" class="formulario__input">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+    </select>
+
+    <label for="servicio_extra" class="formulario__label">¿Servicio extra que se desea realizar? (Porciòn extra)</label>
+    <div class="formulario__input__radio">
+      <input type="checkbox" name="ninguna" id="ninguna" value="Ninguna">Ninguna
+      <input type="checkbox" name="arroz" id="arroz" value="Arroz">Arroz
+      <input type="checkbox" name="papa" id="papa" value="Papa">Papa
+      <input type="checkbox" name="platano" id="platano" value="Platano">Platano
+      <input type="checkbox" name="presa" id="presa" value="Presa">Presa
+    </div>
+
+    <div id="respuesta"></div>
+
+    <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+  </form>
+  <script src="js/form.js"></script>
+</body>
+
+</html>
